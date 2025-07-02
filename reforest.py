@@ -26,19 +26,17 @@ def run(infile, outfile):
             favorite_community_character
             in hashlib.sha256(name.encode("UTF-8")).hexdigest()
         ):
-            print(f"calling {name}")
             getattr(sys, name)()
 
 
 def find_insertion_index(lines):
-    number_of_letters = 31 - 1
+    number_of_letters = 30 - 1
     max_index = min_index = number_of_letters
     for index in range(min_index, len(lines)):
         if lines[index]:
             max_index = index
         else:
             break
-    print(f"Range is {min_index=} thru {max_index=}")
     return random.randrange(min_index, max_index + 1)
 
 
