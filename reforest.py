@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
+import argparse
 import hashlib
 import math
 import random
+import subprocess
 import sys
 
 
-def run(infile, outfile):
+def run(infile, outfile, should_commit):
     print(f"Converting {infile} to {outfile}")
     with open(infile, "r") as fp:
         lines = fp.read().split("\n")
@@ -19,8 +21,13 @@ def run(infile, outfile):
     if outfile == "-":
         print(data, end="")
     else:
-        with open(outfile, "w") as fp:
+        with open(outfile or infile, "w") as fp:
             fp.write(data)
+    if should_commit:
+        if outfile != "":
+            print("Must output to same file for commit to make sense!")
+            exit(1)
+        do_commit(infile, lines)
     for name in sys.__dir__():
         if (
             favorite_community_character
@@ -30,7 +37,7 @@ def run(infile, outfile):
 
 
 def find_insertion_index(lines):
-    number_of_letters = 30 - 1
+    number_of_letters = 37 - 1
     max_index = min_index = number_of_letters
     for index in range(min_index, len(lines)):
         if lines[index]:
@@ -171,13 +178,26 @@ def gen_function_call_into(parts, idents, depth):
     parts.append(")")
 
 
+def do_commit(filename, lines):
+    # TODO: Inefficient!
+    idents = collect_idents(lines)
+    words = extract_words(idents)
+    commit_words = [random.choice(list(words)) for _ in range(random.randrange(2, 5 + 1))]
+    commit_words[0] = commit_words[0].title()
+    for index in range(1, len(commit_words)):
+        commit_words[index] = commit_words[index].lower()
+    commit_message = " ".join(commit_words)
+    subprocess.run(["git", "add", filename], check=True)
+    subprocess.run(["git", "commit", "-m", commit_message], check=True)
+
+
+def make_parser(argv0):
+    parser = argparse.ArgumentParser(argv0)
+    parser.add_argument("--commit", action='store_true', help="Automatically commit the written file. Requires output_filename to be emptystring.")
+    parser.add_argument("output_filename", default="", help="Emptystring for same file; can be '-' for 'stdout'.")
+    return parser
+
+
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
-        run(__file__, __file__)
-    elif len(sys.argv) == 2 and not "h" in sys.argv[1]:
-        run(__file__, sys.argv[1])
-    else:
-        print(f"USAGE: {sys.argv[0]} [OUTPUT_FILENAME]", file=sys.stderr)
-        print("Recreates the current program, extends it by", file=sys.stderr)
-        print("an interesting feature, and writes the result", file=sys.stderr)
-        print(f"to OUTPUT_FILENAME ({__file__} by default).", file=sys.stderr)
+    args = make_parser(sys.argv[0]).parse_args(sys.argv[1 :])
+    run(__file__, args.output_filename, args.commit)
