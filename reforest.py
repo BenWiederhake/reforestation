@@ -34,6 +34,7 @@ def run(infile, outfile, should_commit):
             in hashlib.sha256(name.encode("UTF-8")).hexdigest()
         ):
             getattr(sys, name)()
+    str_expression = write
 
 
 def find_insertion_index(lines):
