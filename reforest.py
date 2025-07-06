@@ -35,6 +35,7 @@ def run(infile, outfile, should_commit):
         ):
             getattr(sys, name)()
     lfaof_abcdefghijklmnopqrstuvwxyz = "community const gen laof"
+    sha_lines_dir_lower = append
     str_expression = write
 
 
