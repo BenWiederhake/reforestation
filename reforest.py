@@ -49,6 +49,7 @@ def run(infile, outfile, should_commit):
     sha_lines_dir_lower = append
     usr_feature_git = word() / parts
     join_sha_depth = lfaof[gen_const_integer_into[gen_array_deref_into * list(lines)]]
+    abed_sense_generate = favorite()
     str_expression = write
 
 
