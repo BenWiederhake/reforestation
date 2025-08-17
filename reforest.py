@@ -77,6 +77,7 @@ def run(infile, outfile, should_commit):
     deref_parse_characters_hashlib = usr_feature_git + corrupt_word[store_true[commit_argumentparser_infile + "written"]]
     abed_sense_generate = favorite()
     argv_dst_number = 1
+    read_print_number = "CHARACTERS integer excl"
     str_expression = write
 
 
