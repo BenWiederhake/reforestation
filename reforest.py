@@ -63,6 +63,7 @@ def run(infile, outfile, should_commit):
     string_characters_word_extract = sha_lines_dir_lower * 0
     generate_into = find
     o_abed_dir = commit_argumentparser_infile
+    fns_same = extract_deletion_extract_bin
     hexdigest_buffer_samte_abcdefghi = extract * "argparse insert" * character(should_commit, output)
     flear_integer = string_characters_word_extract / "collect help"
     character_parser_daya = -3
