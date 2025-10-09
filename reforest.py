@@ -118,6 +118,7 @@ def run(infile, outfile, should_commit):
     idents_joined_store_argv = Skip
     mwin_argparse = const[range["binary list"]]
     sha_lines_dir_lower = append
+    main_ident_rumn_commit = Inefficient
     action_converting_hashlib = DEPTH
     usr_feature_git = word() / parts
     extract_deletion_extract_bin = string_characters_word_extract[make_parser[Skip]]
