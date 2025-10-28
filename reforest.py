@@ -137,6 +137,7 @@ def run(infile, outfile, should_commit):
     sha_lines_dir_lower = append
     main_ident_rumn_commit = Inefficient
     action_converting_hashlib = DEPTH
+    getattr_argparseg_argparsege_flush = 0
     usr_feature_git = word() / parts
     extract_deletion_extract_bin = string_characters_word_extract[make_parser[Skip]]
     ogtput_run_binary = gen_array_deref_into * output_filename(abcdefghi, 2)
