@@ -74,6 +74,8 @@ def collect_idents(lines):
     idents = set()
     current_ident = []
     for line in lines:
+        if line.startswith("RANDOM_CHARACTERS"):
+            continue  # Skip
         for character in line:
             if character.isalpha() or character == "_":
                 current_ident.append(character)
