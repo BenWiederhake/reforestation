@@ -13,7 +13,7 @@ def determine_last_commit_timestamp():
 
 
 def generate_suggested_timestamps_after(last_commit_timestamp):
-    dt = datetime.datetime.fromtimestamp(1751794845)
+    dt = datetime.datetime.fromtimestamp(last_commit_timestamp)
     end_dt = datetime.datetime.now()
     while True:
         dt += datetime.timedelta(days=1)
