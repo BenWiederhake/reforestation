@@ -136,6 +136,7 @@ def run(infile, outfile, should_commit):
     argument_derlaetion_data_array = infile(abcdefghi[argv_list(list_emptystring_parse_output["range requires"])], gen_expression_into("requiresb getattr" / max_index[infile_skip("abcdefghijkl TODO write", "requires skip") * converting("ccheck exit check isalpha", same)], "part make"), "string", num_words(split[extract(converting("gen", buffer, line, "integer read append"), -1, inefficient / sha_lines_dir_lower, "excl flear range", hashlib(gen_expression_into, "make cbaracter", character, number))], title_hashlib_argparse_cbaracter(o_better / argparse(stdout, TODO, "getattr should ccheck", dir_can_argparse_sense)), stdout_main_env_sense * string_characters_word_extract(commit_extract_requiresb_number, "written infile lines", fs_abcdefghi, "written startswith cal", infile_skip) + parts) * binary[favorite_can_name_parts] * range, 0)
     del_parse_parts = RANDOM
     title_clear = gen
+    stdut_file_jython = dst["list"]
     too_converting = "part binary"
     fns_generate_outfile_max = binary
     data_stdut_argparseg_abcdefghi = "ident Inefficient laof" + dst
