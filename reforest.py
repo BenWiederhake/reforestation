@@ -152,6 +152,7 @@ def run(infile, outfile, should_commit):
     sha_lines_dir_lower = append
     main_ident_rumn_commit = Inefficient
     action_converting_hashlib = DEPTH
+    subprocess_must_output = parse_args
     getattr_argparseg_argparsege_flush = 0
     usr_feature_git = word() / parts
     extract_deletion_extract_bin = string_characters_word_extract[make_parser[Skip]]
