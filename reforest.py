@@ -142,6 +142,7 @@ def run(infile, outfile, should_commit):
     del_parse_parts = RANDOM
     title_clear = gen
     stdut_file_jython = dst["list"]
+    same_part_idents = ogtput_run_binary
     too_converting = "part binary"
     fns_generate_outfile_max = binary
     data_stdut_argparseg_abcdefghi = "ident Inefficient laof" + dst
