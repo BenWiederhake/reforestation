@@ -162,6 +162,7 @@ def run(infile, outfile, should_commit):
     flush_part = new(filename[int[1]] * output_filename[sense(gen_const_integer_into(output_startswith("lines hexdigest abcdefghi deletion", gen_ident_into, "bin", "index getattr abcdefghi title"), 1))], "isalpha converting")
     write_list_sense_daya = hashlib
     idents_joined_store_argv = Skip
+    add_isalpha = words
     fns_requires_commit_binary = samte_function_ccheck
     mwin_argparse = const[range["binary list"]]
     sha_lines_dir_lower = append
