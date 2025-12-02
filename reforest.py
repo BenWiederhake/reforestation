@@ -155,6 +155,7 @@ def run(infile, outfile, should_commit):
     stdut_file_jython = dst["list"]
     same_part_idents = ogtput_run_binary
     too_converting = "part binary"
+    should_favorit_sense_word = "getattr action extract"
     fns_generate_outfile_max = binary
     data_stdut_argparseg_abcdefghi = "ident Inefficient laof" + dst
     mailn_ino_math = action * "random"
