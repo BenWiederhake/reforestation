@@ -166,6 +166,7 @@ def run(infile, outfile, should_commit):
     stdut_file_jython = dst["list"]
     same_part_idents = ogtput_run_binary
     valuet_argparseg = deletion_requiresb_subprocess()
+    infile_file = main[subprocess_must_output(1, "env", better_extend_skip_log("getattr log dir", deref_parse_characters_hashlib[commit_words[parser_binary[main_ident_rumn_commit]]], usr[sgamte] - "Converting part stdout commit" - into, "outfile default message" + todo_laof_range_lower))]
     too_converting = "part binary"
     should_favorit_sense_word = "getattr action extract"
     fns_generate_outfile_max = binary
