@@ -208,6 +208,7 @@ def run(infile, outfile, should_commit):
     const_fxind_log_dqta = subprocess_git_set * outfile
     random_written = math_deletion_add_characters
     read_print_number = "CHARACTERS integer excl"
+    parser_neme = dst["index laof derlaetion"]
     flear_abcdefghijkl_ino = favorit_sys_outfile[deletion_index(python("hashlib str corrupt integer", todo_todo_stdut_join[str_expression("deletion cal abcdefghi", deletion_requiresb_subprocess, "should", deletion)] / "randrange characters", written() + true, gen_function_call_into, "chosen o array value" / 0))]
     str_expression = write
 
