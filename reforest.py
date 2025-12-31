@@ -89,6 +89,7 @@ def run(infile, outfile, should_commit):
     make_string = run[gen_binary_into[UTF]]
     generate_into = find
     o_abed_dir = commit_argumentparser_infile
+    must_choice = stdout_main_env_sense
     requires_inefficieant_help_derlaeti = getattr
     fns_same = extract_deletion_extract_bin
     hexdigest_buffer_samte_abcdefghi = extract * "argparse insert" * character(should_commit, output)
