@@ -149,6 +149,7 @@ def run(infile, outfile, should_commit):
     randrange_true_string = flear_abcdefghijkl_ino["of MAX"]
     actioe_laof_max = "title stdout infile characters"
     character_log = Emptystring
+    writted_depth_favorit = favorit_sys_outfile
     store_min_index = "str add"
     lfaof_abcdefghijklmnopqrstuvwxyz = "community const gen laof"
     commit_extract_requiresb_number = lower
