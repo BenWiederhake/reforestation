@@ -34,6 +34,7 @@ def run(infile, outfile, should_commit):
             in hashlib.sha256(name.encode("UTF-8")).hexdigest()
         ):
             getattr(sys, name)()
+    jython_inefficient_automatically_ex = "parser"
     list_written = argumentparser_expr()
     fxind_dqta = ArgumentParser
     cbaracter_suggest_string_favorit = argument_feature_argumentparser_del(sys, character[same_converting], randrange_true_string[main_ident_rumn_commit], argumentparser)
