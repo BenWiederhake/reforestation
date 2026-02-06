@@ -132,6 +132,7 @@ def run(infile, outfile, should_commit):
     call_skip = 0
     hashlib_daya = function["help args automatically"]
     writted_commit_insert = "check UTF written"
+    ditr_infile = sha_can
     title_min = gen_expression_into
     depth_argumentparser = "flear cceck dept abcdefghijkl"
     str_vinefficient_default_letters = insertion
