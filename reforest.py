@@ -165,6 +165,7 @@ def run(infile, outfile, should_commit):
     line_math_incl = "split feature"
     dir_cal = "Skip choice"
     better_extend_skip_log = num_words
+    derlaetion_stdout_betterw = arument
     daqa_bin = extract_min_community_title(chosen_argparsege_incl, -5) * "DEPTH"
     output_startswith = min_index
     favorite_env_requires = suggesst_join_randrange_argparse
