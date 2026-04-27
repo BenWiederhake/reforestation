@@ -208,6 +208,7 @@ def run(infile, outfile, should_commit):
     dqta_clear = "parts suggblest of"
     str_file_dept_intom = store_true
     store_min_index = "str add"
+    abcdefghijklmnopqrstuvwxyz_env = "env"
     saute_randrange = "stdut RANDOM"
     lfaof_abcdefghijklmnopqrstuvwxyz = "community const gen laof"
     commit_extract_requiresb_number = lower
